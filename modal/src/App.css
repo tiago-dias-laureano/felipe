@@ -1,0 +1,25 @@
+.modal {
+  width: 500px;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 999;
+
+  background-color: gray;
+
+  padding: 10px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  height: 100vh;
+}
